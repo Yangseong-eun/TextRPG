@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="tool">
+      <UniqueIdentifier>{fc5f4379-9204-4d55-8cb2-a88964f08114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\pch">
+      <UniqueIdentifier>{3abc88ea-0c9c-442e-90a4-acd33760fbee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\time">
+      <UniqueIdentifier>{d56a5be6-97c6-4d91-90c9-795344f0acb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\key">
+      <UniqueIdentifier>{ca46197f-b662-49e6-8d2d-d719dfe7e6fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\logger">
+      <UniqueIdentifier>{9209c3b3-aad1-4844-85e2-d6645aec8610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool\singleton">
+      <UniqueIdentifier>{9a64f76f-97ee-4f93-b8a2-931c65f30373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{ff67c2f1-8168-4d2b-af51-90c2b2b072f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{95792b78-f95f-4997-8f6a-7f9b636f340d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Manager">
+      <UniqueIdentifier>{c7c7191a-dd69-4755-a5e4-a1800419c9b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Monster">
+      <UniqueIdentifier>{c72f052e-4f0b-4f79-b268-68bd1b9bee02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Item">
+      <UniqueIdentifier>{26093aa2-a7ff-4923-86d4-41e62cf5c444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene">
+      <UniqueIdentifier>{c458d2ce-d529-401e-859e-cdbceb445687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Object">
+      <UniqueIdentifier>{a85bea5d-c825-49df-b774-096480e6c710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\MainScene">
+      <UniqueIdentifier>{32344d84-2aad-4e22-9053-cda0be77646c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Art">
+      <UniqueIdentifier>{3c5c6dff-01b9-4a69-8617-5c701c8c51e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Shop">
+      <UniqueIdentifier>{b1c37b2b-f371-4a8d-988b-098bf3ba3410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Title">
+      <UniqueIdentifier>{f7b1832d-09ea-4c83-b83d-2b0b2d4ea2cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\Field">
+      <UniqueIdentifier>{2ba453f7-d01e-4d91-967f-1fc5be550450}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\BattleScene">
+      <UniqueIdentifier>{9d518969-c5ea-4acb-ac54-de75e251e2fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Scene\BattleScene\Obj">
+      <UniqueIdentifier>{dd453a08-f242-4631-a7df-4117acfa5dea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tool\TimeManager.cpp">
+      <Filter>tool\time</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\Timer.cpp">
+      <Filter>tool\time</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\KeyMgr.cpp">
+      <Filter>tool\key</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\Logger.cpp">
+      <Filter>tool\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\pch.cpp">
+      <Filter>tool\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="tool\Random.cpp">
+      <Filter>tool\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Character.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\AttackBoost.cpp">
+      <Filter>Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\HealthPotion.cpp">
+      <Filter>Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item\Item.cpp">
+      <Filter>Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\BattleManager.cpp">
+      <Filter>Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\GameManager.cpp">
+      <Filter>Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Player\Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleRender.cpp">
+      <Filter>Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\MonsterConsoleObject.cpp">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\BattleMenuObject.cpp">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\BattleMessage.cpp">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\MonsterArtObject.cpp">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\BattleSene.cpp">
+      <Filter>Game\Scene\BattleScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster\Monster.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster\Orc.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster\Troll.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster\BossMonster.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster\Enemy.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster\Goblin.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\PlayerStatusObject.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\ConsoleObject.cpp">
+      <Filter>Game\Scene\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MainScene.cpp">
+      <Filter>Game\Scene\MainScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster\Slime.cpp">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\MonsterHPBar.cpp">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\PlayerProfile.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\MonsterScene.cpp">
+      <Filter>Game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="tool\func.cpp">
+      <Filter>tool\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ShopScene.cpp">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\ShopArt.cpp">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\TitleObj.cpp" />
+    <ClCompile Include="ConsoleObject\TitleText.cpp" />
+    <ClCompile Include="Scene\TitleScene.cpp" />
+    <ClCompile Include="InventoryScene.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\StagePrint.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>Game\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\TitleText.cpp">
+      <Filter>Game\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\TitleObj.cpp">
+      <Filter>Game\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\FieldScene.cpp">
+      <Filter>Game\Scene\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\PrintMap.cpp">
+      <Filter>Game\Scene\Field</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\DisplayItems.cpp">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="Shop\Shop.cpp">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleObject\ShopMessage.cpp">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tool\TimeManager.h">
+      <Filter>tool\time</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Timer.h">
+      <Filter>tool\time</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\define.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Macro.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\struct.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\flag.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\KeyMgr.h">
+      <Filter>tool\key</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Logger.h">
+      <Filter>tool\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Singleton.h">
+      <Filter>tool\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\pch.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\Random.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\type.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Character.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\AttackBoost.h">
+      <Filter>Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\HealthPotion.h">
+      <Filter>Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item\Item.h">
+      <Filter>Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\BattleManager.h">
+      <Filter>Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\GameManager.h">
+      <Filter>Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Player\Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleRender.h">
+      <Filter>Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\MonsterArtObject.h">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\MonsterConsoleObject.h">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\BattleMenuObject.h">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\BattleMessage.h">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\BattleScene.h">
+      <Filter>Game\Scene\BattleScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster\Monster.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster\Orc.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster\Troll.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster\BossMonster.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster\Enemy.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster\Goblin.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\PlayerStatusObject.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\ConsoleObject.h">
+      <Filter>Game\Scene\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MainScene.h">
+      <Filter>Game\Scene\MainScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster\Slime.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\MonsterHPBar.h">
+      <Filter>Game\Scene\BattleScene\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\PlayerProfile.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\MonsterScene.h">
+      <Filter>Game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="tool\func.h">
+      <Filter>tool\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ShopScene.h">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\ShopArt.h">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\TitleObj.h" />
+    <ClInclude Include="ConsoleObject\TitleText.h" />
+    <ClInclude Include="Scene\TitleScene.h" />
+    <ClInclude Include="InventoryScene.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\StagePrint.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\TitleText.h">
+      <Filter>Game\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\TitleObj.h">
+      <Filter>Game\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>Game\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\FieldScene.h">
+      <Filter>Game\Scene\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\PrintMap.h">
+      <Filter>Game\Scene\Field</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\DisplayItems.h">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleObject\ShopMessage.h">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="Shop\Shop.h">
+      <Filter>Game\Scene\Shop</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\TextRPG\AutoUTF8.bat" />
+    <None Include="..\TextRPG\.gitattributes" />
+    <None Include="..\TextRPG\.gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\TextRPG\.editorconfig.txt" />
+    <Text Include="Art\Slime.txt">
+      <Filter>Art</Filter>
+    </Text>
+    <Text Include="Art\Dragon.txt">
+      <Filter>Art</Filter>
+    </Text>
+    <Text Include="Art\HPBar.txt">
+      <Filter>Art</Filter>
+    </Text>
+    <Text Include="Art\Orc.txt">
+      <Filter>Art</Filter>
+    </Text>
+    <Text Include="Art\Profile.txt">
+      <Filter>Art</Filter>
+    </Text>
+    <Text Include="Art\Store.txt">
+      <Filter>Art</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

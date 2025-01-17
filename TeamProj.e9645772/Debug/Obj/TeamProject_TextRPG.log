@@ -1,0 +1,136 @@
+﻿  BattleMenuObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\BattleMenuObject.cpp(3,10): error C1083: 포함 파일을 열 수 없습니다. 'ConsoleRender.h': No such file or directory
+  (소스 파일 '/ConsoleObject/BattleMenuObject.cpp'을(를) 컴파일하는 중)
+  
+  BattleMessage.cpp
+  ConsoleObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\ConsoleObject.cpp(3,10): error C1083: 포함 파일을 열 수 없습니다. 'ConsoleRender.h': No such file or directory
+  (소스 파일 '/ConsoleObject/ConsoleObject.cpp'을(를) 컴파일하는 중)
+  
+  MonsterArtObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterArtObject.cpp(3,10): error C1083: 포함 파일을 열 수 없습니다. 'ConsoleRender.h': No such file or directory
+  (소스 파일 '/ConsoleObject/MonsterArtObject.cpp'을(를) 컴파일하는 중)
+  
+  MonsterConsoleObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterConsoleObject.h(3,10): error C1083: 포함 파일을 열 수 없습니다. 'Monster.h': No such file or directory
+  (소스 파일 '/ConsoleObject/MonsterConsoleObject.cpp'을(를) 컴파일하는 중)
+  
+  PlayerStatusObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\PlayerStatusObject.cpp(5,10): error C1083: 포함 파일을 열 수 없습니다. 'ConsoleRender.h': No such file or directory
+  (소스 파일 '/ConsoleObject/PlayerStatusObject.cpp'을(를) 컴파일하는 중)
+  
+  ConsoleRender.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleRender.cpp(4,10): error C1083: 포함 파일을 열 수 없습니다. 'Scene.h': No such file or directory
+  (소스 파일 '/ConsoleRender.cpp'을(를) 컴파일하는 중)
+  
+  AttackBoost.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Item\AttackBoost.h(10,46): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+  (소스 파일 '/Item/AttackBoost.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Item\AttackBoost.h(10,22): error C1075: '{': 일치하는 토큰을 찾을 수 없습니다.
+  (소스 파일 '/Item/AttackBoost.cpp'을(를) 컴파일하는 중)
+  
+  HealthPotion.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Item\HealthPotion.h(10,48): error C2001: 상수에 줄 바꿈 문자가 있습니다.
+  (소스 파일 '/Item/HealthPotion.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Item\HealthPotion.h(10,23): error C1075: '{': 일치하는 토큰을 찾을 수 없습니다.
+  (소스 파일 '/Item/HealthPotion.cpp'을(를) 컴파일하는 중)
+  
+  Item.cpp
+  BattleManager.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Manager\BattleManager.h(2,10): error C1083: 포함 파일을 열 수 없습니다. 'BattleScene.h': No such file or directory
+  (소스 파일 '/Manager/BattleManager.cpp'을(를) 컴파일하는 중)
+  
+  GameManager.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Manager\BattleManager.h(2,10): error C1083: 포함 파일을 열 수 없습니다. 'BattleScene.h': No such file or directory
+  (소스 파일 '/Manager/GameManager.cpp'을(를) 컴파일하는 중)
+  
+  MonsterHPBar.cpp
+\MonsterHPBar.cpp(1,1): error C1083: 소스 파일을 열 수 없습니다. 'MonsterHPBar.cpp': No such file or directory
+  (소스 파일 '/MonsterHPBar.cpp'을(를) 컴파일하는 중)
+  
+  MonsterScene.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\MonsterScene.cpp(103,1): error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  BossMonster.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Monster.h(7,30): error C2011: 'MonsterType': 'enum' 형식 재정의
+  (소스 파일 '/Monster/BossMonster.cpp'을(를) 컴파일하는 중)
+      C:\Users\YangSeongeun\Documents\TextRPG\tool\flag.h(38,12):
+      'MonsterType' 선언을 참조하십시오.
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\BossMonster.h(3,10): error C1083: 포함 파일을 열 수 없습니다. 'Player.h': No such file or directory
+  (소스 파일 '/Monster/BossMonster.cpp'을(를) 컴파일하는 중)
+  
+  Enemy.cpp
+  Goblin.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Monster.h(7,30): error C2011: 'MonsterType': 'enum' 형식 재정의
+  (소스 파일 '/Monster/Goblin.cpp'을(를) 컴파일하는 중)
+      C:\Users\YangSeongeun\Documents\TextRPG\tool\flag.h(38,12):
+      'MonsterType' 선언을 참조하십시오.
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Goblin.cpp(5,51): error C2027: 정의되지 않은 형식 'MonsterType'을(를) 사용했습니다.
+  (소스 파일 '/Monster/Goblin.cpp'을(를) 컴파일하는 중)
+      C:\Users\YangSeongeun\Documents\TextRPG\tool\flag.h(38,12):
+      'MonsterType' 선언을 참조하십시오.
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Goblin.cpp(5,51): error C2275: 'Goblin': 형식 대신 식이 필요합니다.
+  (소스 파일 '/Monster/Goblin.cpp'을(를) 컴파일하는 중)
+  
+  Monster.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Monster.cpp(2,10): error C1083: 포함 파일을 열 수 없습니다. 'Player.h': No such file or directory
+  (소스 파일 '/Monster/Monster.cpp'을(를) 컴파일하는 중)
+  
+  Orc.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Monster.h(7,30): error C2011: 'MonsterType': 'enum' 형식 재정의
+  (소스 파일 '/Monster/Orc.cpp'을(를) 컴파일하는 중)
+      C:\Users\YangSeongeun\Documents\TextRPG\tool\flag.h(38,12):
+      'MonsterType' 선언을 참조하십시오.
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Orc.cpp(5,48): error C2027: 정의되지 않은 형식 'MonsterType'을(를) 사용했습니다.
+  (소스 파일 '/Monster/Orc.cpp'을(를) 컴파일하는 중)
+      C:\Users\YangSeongeun\Documents\TextRPG\tool\flag.h(38,12):
+      'MonsterType' 선언을 참조하십시오.
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Orc.cpp(5,48): error C2275: 'Orc': 형식 대신 식이 필요합니다.
+  (소스 파일 '/Monster/Orc.cpp'을(를) 컴파일하는 중)
+  
+  Troll.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Monster.h(7,30): error C2011: 'MonsterType': 'enum' 형식 재정의
+  (소스 파일 '/Monster/Troll.cpp'을(를) 컴파일하는 중)
+      C:\Users\YangSeongeun\Documents\TextRPG\tool\flag.h(38,12):
+      'MonsterType' 선언을 참조하십시오.
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Troll.cpp(5,50): error C2027: 정의되지 않은 형식 'MonsterType'을(를) 사용했습니다.
+  (소스 파일 '/Monster/Troll.cpp'을(를) 컴파일하는 중)
+      C:\Users\YangSeongeun\Documents\TextRPG\tool\flag.h(38,12):
+      'MonsterType' 선언을 참조하십시오.
+  
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\Troll.cpp(5,50): error C2275: 'Troll': 형식 대신 식이 필요합니다.
+  (소스 파일 '/Monster/Troll.cpp'을(를) 컴파일하는 중)
+  
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  PlayerProfile.cpp
+\PlayerProfile.cpp(1,1): error C1083: 소스 파일을 열 수 없습니다. 'PlayerProfile.cpp': No such file or directory
+  (소스 파일 '/PlayerProfile.cpp'을(를) 컴파일하는 중)
+  
+  Player.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Player\Player.cpp(3,10): error C1083: 포함 파일을 열 수 없습니다. 'Manager/GameManager.h': No such file or directory
+  (소스 파일 '/Player/Player.cpp'을(를) 컴파일하는 중)
+  
+  BattleSene.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Scene\Scene.h(3,10): error C1083: 포함 파일을 열 수 없습니다. 'ConsoleObject.h': No such file or directory
+  (소스 파일 '/Scene/BattleSene.cpp'을(를) 컴파일하는 중)
+  
+  MainScene.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Scene\Scene.h(3,10): error C1083: 포함 파일을 열 수 없습니다. 'ConsoleObject.h': No such file or directory
+  (소스 파일 '/Scene/MainScene.cpp'을(를) 컴파일하는 중)
+  
+  Scene.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Scene\Scene.h(3,10): error C1083: 포함 파일을 열 수 없습니다. 'ConsoleObject.h': No such file or directory
+  (소스 파일 '/Scene/Scene.cpp'을(를) 컴파일하는 중)
+  
+  Slime.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Slime.cpp(7,1): error C1010: 미리 컴파일된 헤더를 찾는 동안 예기치 않은 파일의 끝이 나타났습니다. '#include "pch.h"'을(를) 소스에 추가하시겠습니까?
+  Random.cpp
+  코드를 생성하고 있습니다...
