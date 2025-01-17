@@ -1,0 +1,173 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate 디렉터리가 슬래시로 끝나지 않습니다. Intermediate 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output 디렉터리가 슬래시로 끝나지 않습니다. Output 디렉터리의 적절한 평가를 허용하는 데 필요하므로 이 빌드 인스턴스에서 슬래시를 추가합니다.
+  Traversing folders and converting .cpp and .h files to UTF-8 without BOM...
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\BattleMenuObject.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\BattleMenuObject.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\BattleMessage.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\BattleMessage.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\ConsoleObject.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\ConsoleObject.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterArtObject.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterArtObject.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterConsoleObject.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterConsoleObject.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterHPBar.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterHPBar.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\PlayerProfile.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\PlayerProfile.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\PlayerStatusObject.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\PlayerStatusObject.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\PrintMap.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\PrintMap.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\ShopArt.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\ShopArt.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\StagePrint.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\StagePrint.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\TitleObj.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\TitleObj.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\TitleText.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\TitleText.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Item\AttackBoost.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Item\AttackBoost.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Item\HealthPotion.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Item\HealthPotion.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Item\Item.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Item\Item.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Manager\BattleManager.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Manager\BattleManager.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Manager\GameManager.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Manager\GameManager.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\BossMonster.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\BossMonster.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Enemy.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Enemy.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Goblin.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Goblin.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Monster.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Monster.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Orc.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Orc.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Slime.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Slime.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Troll.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Monster\Troll.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Player\Character.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Player\Character.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Player\Player.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Player\Player.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\BattleScene.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\BattleSene.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\FieldScene.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\FieldScene.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\MainScene.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\MainScene.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\MonsterScene.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\MonsterScene.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\Scene.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\Scene.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\ShopScene.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\ShopScene.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\TitleScene.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Scene\TitleScene.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Shop\Shop.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\Shop\Shop.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\define.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\eclass.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\flag.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\func.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\func.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\KeyMgr.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\KeyMgr.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\Logger.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\Logger.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\Macro.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\pch.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\pch.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\Random.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\Random.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\Singleton.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\struct.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\TimeManager.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\TimeManager.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\Timer.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\Timer.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\tool\type.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleRender.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\ConsoleRender.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\gameloop.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\InventoryScene.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\InventoryScene.h
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\main.cpp
+  Converted: C:\Users\YangSeongeun\Documents\TextRPG\MonsterMain.cpp
+  Conversion completed.
+  Press any key to continue . . . 
+  pch.cpp
+  BattleMenuObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\BattleMenuObject.cpp(31,31): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  BattleMessage.cpp
+  (소스 파일 '/ConsoleObject/BattleMenuObject.cpp'을(를) 컴파일하는 중)
+  
+  ConsoleObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\ConsoleObject.cpp(61,8): warning C4101: 'dw' :참조되지 않은 지역 변수입니다.
+  (소스 파일 '/ConsoleObject/ConsoleObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\ConsoleObject.cpp(168,21): warning C4267: '=': 'size_t'에서 'uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/ConsoleObject/ConsoleObject.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\ConsoleObject.cpp(179,23): warning C4267: 'return': 'size_t'에서 'const uint32'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/ConsoleObject/ConsoleObject.cpp'을(를) 컴파일하는 중)
+  
+  MonsterArtObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterArtObject.cpp(33,86): warning C4267: '인수': 'size_t'에서 'SHORT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  (소스 파일 '/ConsoleObject/MonsterArtObject.cpp'을(를) 컴파일하는 중)
+  
+  MonsterConsoleObject.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\ConsoleObject\MonsterConsoleObject.cpp(22,25): warning C4838: 'int'에서 'SHORT'(으)로의 변환에는 축소 변환이 필요합니다.
+  (소스 파일 '/ConsoleObject/MonsterConsoleObject.cpp'을(를) 컴파일하는 중)
+  
+  MonsterHPBar.cpp
+  PlayerProfile.cpp
+  PlayerStatusObject.cpp
+  PrintMap.cpp
+  ShopArt.cpp
+  StagePrint.cpp
+  TitleObj.cpp
+  TitleText.cpp
+  ConsoleRender.cpp
+  InventoryScene.cpp
+  AttackBoost.cpp
+  HealthPotion.cpp
+  Item.cpp
+  BattleManager.cpp
+  GameManager.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  BossMonster.cpp
+C:\Users\YangSeongeun\Documents\TextRPG\Monster\BossMonster.cpp(60,34): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+  (소스 파일 '/Monster/BossMonster.cpp'을(를) 컴파일하는 중)
+  
+  Enemy.cpp
+  Goblin.cpp
+  Monster.cpp
+  Orc.cpp
+  Slime.cpp
+  Troll.cpp
+  Character.cpp
+  Player.cpp
+  BattleSene.cpp
+  FieldScene.cpp
+  MainScene.cpp
+  MonsterScene.cpp
+  Scene.cpp
+  ShopScene.cpp
+  TitleScene.cpp
+  main.cpp
+  KeyMgr.cpp
+  Random.cpp
+  func.cpp
+  코드를 생성하고 있습니다...
+  Logger.cpp
+  TimeManager.cpp
+  Timer.cpp
+  코드를 생성하고 있습니다...
+  TeamProject_TextRPG.vcxproj -> C:\Users\YangSeongeun\Documents\TextRPG\DebugBin\TeamProject_TextRPG_Debug.exe
